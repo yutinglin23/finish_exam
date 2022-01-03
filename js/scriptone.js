@@ -63,16 +63,16 @@ $(document).ready(function () {
             console.log("87");
             alert("送出成功");
         }
-        
-    });
-    //版本一無then版之後要加動畫
-    //EMPTY INPUT FIELD
-    $nameone.val('');
+        $nameone.val('');
     $phone.val('');
     $address.val('');
     $email.val('');
     $content.val('');
-    $main.val('');
+    $main.val(''); 
+    });
+    //版本一無then版之後要加動畫
+    //EMPTY INPUT FIELD
+   
             
     
     // docRef.get().then(function(doc){
