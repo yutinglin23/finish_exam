@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>Snow Bro</title>
+	<!-- css連結 -->
+	<link href="css/shop.css" rel="stylesheet">	
+	<link href="css/rwd.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="img/58870792.png">
+</head>
+<body>
+	<!-- 漢堡選單 -->
+	<nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="background: color #000;">
+        <a class="navbar-brand" href="index.html"><strong>雪人兄弟 Snow bro</strong> </div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="./index.html">首頁消息</a></li>
+				<li class="nav-item"><a class="nav-link" href="./menu1.html">菜單介紹</a></li>
+				<li class="nav-item"><a class="nav-link" href="./shop.html">門市據點</a></li>
+				<li class="nav-item"><a class="nav-link" href="./contact.html">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+	
+
+	<!--top-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+	<!-- 門市資訊 -->
+    
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="title-shop text-center">門市資訊</p>
+					<hr class="title_line">
+					<hr class="title_line1">
+				</div>
+			</div>
+
+			<!-- partial:index.partial.html -->
+			<main class="page-content">
+				<div class="card">
+					
+				<div class="content">
+					<h2 class="title">光復店</h2>
+					<p class="copy"> 台北市大安區光復南路260巷31號<br><br>
+					電話:02 2779 0691<br><br>
+					營業時間:周二~周日 12:30~22:00<br>(周一公休)</p>
+					<button class="btn"><a href="https://goo.gl/maps/Wt7sgkbSZn6jzrMe6" class="others-block-btn">點擊前往</a></button>
+				</div>
+				</div>
+				<div class="card">
+				<div class="content">
+					<h2 class="title">大安店</h2>
+					<p class="copy"> 台北市大安區大安路一段194號<br><br>
+					電話:02 2703 6563<br><br>
+					營業時間:周二~周日 13:00~22:00<br>(周一公休)</p>
+					<button class="btn"><a href="https://goo.gl/maps/DR2bC7484dSJEVZm7" class="others-block-btn">點擊前往</a></button>
+				</div>
+				</div>
+				<div class="card">
+				<div class="content">
+					<h2 class="title">和平店</h2>
+					<p class="copy">  台北市大安區和平東路二段311巷34弄12號<br><br>
+					電話:02 2703 7063<br><br>
+					營業時間:周二~周日 12:30-21:30<br>(周一公休)</p>
+					<button class="btn"><a href="https://goo.gl/maps/Wt7sgkbSZn6jzrMe6" class="others-block-btn">點擊前往</a></button>
+				</div>
+				</div>
+				<div class="card">
+					<div class="content">
+						<h2 class="title">未來分店</h2>
+						<p class="copy">  近請期待!!!<br><br>如有合作意願<br>請洽詢雪人店長<br><br>手機:09665923882<br>地址:國立台北教育大學數位系創意館</p>
+						<button class="btn"><a href="#" class="others-block-btn">點擊查看</a></button>
+					</div>
+					</div>
+				<!-- <div class="card">
+				<div class="content">
+					<h2 class="title">未來分店</h2>
+					<p class="copy">近請期待!!!</p>
+					<button class="btn">點擊前往</button>
+				</div>
+				</div> -->
+			</main>
+			<!-- partial -->
+		</div>
+	
+
+	
+
+	<!-- footer -->
+	<footer>
+		
+		<div class="container">
+			<div class="footer_icon ">
+				<div class="footer_icon_link "><a href="https://www.facebook.com/%E9%9B%AA%E4%BA%BA%E5%85%84%E5%BC%9F-317432448589757/"><img src="img/fb.png" width="50px" height="50px"></a></div>
+				<div class="footer_icon_link  "><a href="https://acarpblog.com/2017/10/snowbro.html"><img src="img/line.png" width="50px" height="50px"></a></div>
+				<div class="footer_icon_link  "><a href="https://instagram.com/snowbro.3?utm_medium=copy_link"><img src="img/icon1.png" width="50px" height="50px"></a></div>
+			</div>
+				<div class="col-md-12 text-center">
+
+					<p>光復店(總店)|台北市大安區光復南路260巷31號</p>
+					<p>電話:02 2779 0691|營業時間:周二~周日 12:30~22:00(周一公休)</p>
+					<p>Snow Bro company © 2021 Copyright.</p>
+					
+				</div>
+				
+		</div>
+	</footer>
+	
+
+
+
+	<!-- JS連結 -->
+	<script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

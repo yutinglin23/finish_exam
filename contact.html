@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<!-- 手機版縮放 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1" >
+	<title>Snow Bro</title>
+	<!-- css連結 -->
+	<link href="css/contact.css" rel="stylesheet">	
+	<link href="css/rwd.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jQuery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="./js/scriptone.js"></script>
+	<!-- Firebase App is always required and must be first -->
+	<script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+
+	<!-- Add additional services that you want to use -->
+	<script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore-compat.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-storage-compat.js"></script>
+	<link rel="shortcut icon" type="image/x-icon" href="img/58870792.png">
+</head>
+<body>
+	<!-- 漢堡選單 -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: color #000;">
+        <a class="navbar-brand" href="index.html"><strong>雪人兄弟 Snow bro</strong> </div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="./index.html">首頁消息</a></li>
+				<li class="nav-item"><a class="nav-link" href="./menu1.html">菜單介紹</a></li>
+				<li class="nav-item"><a class="nav-link" href="./shop.html">門市據點</a></li>
+				<li class="nav-item"><a class="nav-link" href="./contact.html">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+		
+	
+	<!-- 聯絡我 -->	
+	<div class="contact" id="section3">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div>
+						<p class="title text-center"><strong>聯絡我們</strong></p>
+						<hr class="title_line">
+						<hr class="title_line1">
+					</div>
+					<div class="form">
+						<div>
+							<input type="text"  id="nameone" name="nameone" placeholder="*姓名" required="required">
+						  </div>
+						  <div>
+							<input type="text" id="phone" name="phone" placeholder="連絡電話" >
+						  </div>
+						  <div>
+							<input type="text" id="address" name="address" placeholder="連絡地址" >
+						  </div>
+						  <div>
+							<input type="text" id="email" placeholder="*電子信箱" required="required">
+						  </div>
+						  <div>
+							<input type="text" id="main" placeholder="主旨">
+						  </div>
+						  <div>
+							<textarea id="content" placeholder="*內容" required="required"></textarea>
+						  </div>
+						  <div class="text-center"><input type="submit" id="submit" value="確定送出"></div>
+						
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		
+		<div class="container">
+			<div class="footer_icon ">
+				<div class="footer_icon_link "><a href="https://www.facebook.com/%E9%9B%AA%E4%BA%BA%E5%85%84%E5%BC%9F-317432448589757/"><img src="img/fb.png" width="50px" height="50px"></a></div>
+				<div class="footer_icon_link  "><a href="https://acarpblog.com/2017/10/snowbro.html"><img src="img/line.png" width="50px" height="50px"></a></div>
+				<div class="footer_icon_link  "><a href="https://instagram.com/snowbro.3?utm_medium=copy_link"><img src="img/icon1.png" width="50px" height="50px"></a></div>
+			</div>
+				<div class="col-md-12 text-center">
+
+					<p>光復店(總店)|台北市大安區光復南路260巷31號</p>
+					<p>電話:02 2779 0691|營業時間:周二~周日 12:30~22:00(周一公休)</p>
+					<p>Snow Bro company © 2021 Copyright.</p>
+					
+				</div>
+				
+		</div>
+	</footer>
+	
+
+
+
+	<!-- JS連結 -->
+	
+</body>
+</html>

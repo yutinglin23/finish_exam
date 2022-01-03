@@ -1,0 +1,189 @@
+html{
+	width: 100%;
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+
+.navbar-brand img {
+    height: 70px;
+	
+}
+
+@media (min-width: 768px) {
+    /*nav選單*/
+    .navbar {
+        display: flex;
+        padding-left: 60px!important;
+        padding-right: 60px!important;
+    }
+}
+
+
+/* navbar的文字部分 */
+
+.navbar-nav {
+    font-size: 24px;
+    gap: 50px;
+}
+/*nav選單*/
+
+.navbar{
+	background-color:black;
+	width: 100%;
+	
+}
+
+.nav-link{
+	color: white;
+	
+}
+.nav-link:hover{
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+.title_line {
+	margin-bottom: 20px;
+	border-color: black;
+	border-width: 8px;
+	width: 600px;
+}
+
+.title_line1 {
+	margin-bottom: 30px;
+	border-color: black;
+	width: 600px;
+}
+
+/*聯絡我*/
+.contact {
+	
+	/* height:800px;
+	margin-top: 50px;
+	padding-top: 50px;
+	background-image: url(../img/ENV4.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	block-size:cover;
+	background-size:100% ; */
+	width:100%;
+    height:100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(../img/ENV4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+
+}
+
+.contact .title {
+	color:black;
+	font-size: 24px;
+	margin-top: 80px;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: bisque;
+  color: #000;
+}
+input[type=submit]:active {
+	background-color: rgb(255, 207, 148);
+	color: #000;
+  }
+
+
+/*footer*/
+footer {
+	background-color: black;
+	color: white;
+	padding:10px 0; 
+
+}
+
+footer p {
+	line-height: 40px;
+	color: white;
+	align-items: center;
+
+}
+.footer_icon{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 10px;
+	
+}
+.footer_icon_link:hover{
+	transform: scale(1.2);
+	
+}
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+

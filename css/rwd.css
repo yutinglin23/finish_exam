@@ -1,0 +1,312 @@
+@media screen and (max-width:1200px) {
+ 
+   
+}
+@media screen and (max-width:1280px) {
+
+   
+}
+@media screen and (max-width:768px) {
+    html,
+    body{
+        font-size: 20px;
+    }
+    .navbar {
+        
+        display: flex;
+        padding-left: 40px!important;
+        padding-right: 30px!important;
+    }
+    .menu_box{
+	
+        margin: 50px;
+        width: 800px;
+    }
+    .menu-link1{
+        font-size: 20px;
+    }
+    .menu-link2{
+        font-size: 20px;
+    }
+    .ice1{
+
+        margin-bottom: 100px;
+  
+    }
+   
+    .title_line {
+       display: flex;
+       justify-content: center;
+       width: 500px;
+    }
+    
+    .title_line1 {
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+    .ice_img1{
+        width: 200px;
+        height: 280px;
+        
+    }
+    
+    .ice_img2{
+        width: 200px;
+        height: 280px;
+        
+    }
+   
+    .ice_img3{
+        width: 230px;
+        height: 140px;
+        
+    }
+
+  
+}
+
+@media screen and (max-width:744px){
+    html,
+.menu_box{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 50px;
+ 
+}
+.menu-link1{
+    font-size: 14px;
+    margin-right: 18px;
+    
+
+}
+.menu-link2{
+    font-size: 14px;
+    margin-right: 22px;
+   
+}
+}
+@media screen and (max-width:700px) {  
+
+}
+@media screen and (max-width:640px) {
+    html,
+    /* .wrapper .box{
+       
+        margin:16px;
+       
+    } */
+   
+    .menu_box{
+
+        margin-top: 50px;
+        margin-bottom: 10px;
+       
+       
+    }
+    .menu-link1{
+       
+        margin: 20px;
+    }
+    
+    
+    .menu-link2{
+        
+        margin: 20px;
+    }
+    .about_ice{
+        width: 640px;
+        margin: 0;
+        
+    }
+    /* .product .card {
+	
+        padding: 20px 10px;
+        margin-bottom: 10px;
+     
+    }
+    .card_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 80px;
+    } */
+  
+}
+
+@media screen and (max-width:600px) {
+    html,
+    
+    .about_ice{
+        width: 600px;
+      
+        
+    }
+    .title_line {
+        display: flex;
+        justify-content: center;
+         width:400px;
+     }
+     
+     .title_line1 {
+         display: flex;
+         justify-content: center;
+         width:400px;
+     }
+     .menu_img{
+        width: 430px;
+        height: 500px;
+        justify-content: center;
+        margin-left: 5px;
+    }
+}
+   
+
+
+/* @media screen and (max-width:450px) {
+    html,
+    .navbar {
+        font-size: 16px;
+        display: flex;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .title_line {
+        display: flex;
+        justify-content: center;
+         width:250px;
+     }
+     
+     .title_line1 {
+         display: flex;
+         justify-content: center;
+         width:250px;
+     }
+    
+}
+@media screen and (max-width:400px) {
+    html,
+    .navbar {
+        font-size: 16px;
+        display: flex;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+    .title_line {
+        display: flex;
+        justify-content: center;
+         width:250px;
+     }
+     
+     .title_line1 {
+         display: flex;
+         justify-content: center;
+         width:250px;
+     }
+    
+} */
+/* @media screen and (max-width:320px) {
+    html,
+    body{
+       font-size: 16px;
+    }
+    .navbar {
+        font-size: 16px;
+        display: flex;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    .title {
+        margin-top: 20px;
+        font-size:28px;
+        
+    
+    
+    }
+    .title_line {
+       display: flex;
+       justify-content: center;
+        width:180px;
+    }
+    
+    .title_line1 {
+        display: flex;
+        justify-content: center;
+        width:180px;
+    }
+    .about img {
+        width: 250px;
+        height: 350px;
+    }
+    .story span {
+        
+        font-size: 16px;
+        
+    }
+    p{
+       text-align:center;
+        font-size: 16px;
+       
+    }
+    footer p {
+        font-size: 14px;
+    
+    }
+  
+    .about_ice{
+        width:320px;
+      
+     
+    }
+   
+    .menu_box{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        line-height: 50px;
+     
+    }
+    .menu-link1{
+        font-size: 14px;
+        margin-right: 18px;
+        
+   
+    }
+    .menu-link2{
+        font-size: 14px;
+        margin-right: 22px;
+       
+       
+   
+    }
+ 
+    .ice1_name_title{
+      
+        font-size: 24px;
+        
+    }
+    .ice1_name_title_hot{
+       
+        font-size: 24px;
+        
+    }
+    .menu_img{
+        width:100px;
+        height: 250px;
+        margin-left:40px;
+        justify-content: center;
+        
+       
+    }
+    p{
+        font-size: 14px;
+    }
+    #myBtn {
+        
+        right: 20px;
+        
+        
+    }
+   
+    
+} */
+
